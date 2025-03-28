@@ -15,5 +15,10 @@
 			</array>
 		</dict>
 	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIImageName</key>
+		<string>evalogo</string>
+	</dict>
 </dict>
 </plist>

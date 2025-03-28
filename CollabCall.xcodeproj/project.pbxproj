@@ -12,32 +12,54 @@
 		529C013C2D92793E00466357 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 529C013B2D92793E00466357 /* GoogleSignIn */; };
 		529C013E2D92793E00466357 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 529C013D2D92793E00466357 /* GoogleSignInSwift */; };
 		529C02832D92B43400466357 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 529C02822D92B43400466357 /* FirebaseFirestore */; };
+		52CC69D22D97035200CFF5C0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CC69C22D97035200CFF5C0 /* Launch Screen.storyboard */; };
+		52CC69D32D97035200CFF5C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CC69CB2D97035200CFF5C0 /* Preview Assets.xcassets */; };
+		52CC69D42D97035200CFF5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CC69CD2D97035200CFF5C0 /* Assets.xcassets */; };
+		52CC69D52D97035200CFF5C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52CC69CF2D97035200CFF5C0 /* GoogleService-Info.plist */; };
+		52CC69D72D97035200CFF5C0 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69AB2D97035200CFF5C0 /* AuthenticationManager.swift */; };
+		52CC69D82D97035200CFF5C0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69AD2D97035200CFF5C0 /* UserManager.swift */; };
+		52CC69D92D97035200CFF5C0 /* AuthDataResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69B02D97035200CFF5C0 /* AuthDataResultModel.swift */; };
+		52CC69DA2D97035200CFF5C0 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69B22D97035200CFF5C0 /* AuthenticationViewModel.swift */; };
+		52CC69DB2D97035200CFF5C0 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69B42D97035200CFF5C0 /* SignInEmailView.swift */; };
+		52CC69DC2D97035200CFF5C0 /* SignInEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69B62D97035200CFF5C0 /* SignInEmailViewModel.swift */; };
+		52CC69DD2D97035200CFF5C0 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69BA2D97035200CFF5C0 /* AuthenticationView.swift */; };
+		52CC69DE2D97035200CFF5C0 /* ConnectionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69BD2D97035200CFF5C0 /* ConnectionsListView.swift */; };
+		52CC69DF2D97035200CFF5C0 /* AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69BF2D97035200CFF5C0 /* AnimatedTextView.swift */; };
+		52CC69E02D97035200CFF5C0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69C02D97035200CFF5C0 /* HomeScreen.swift */; };
+		52CC69E12D97035200CFF5C0 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69C32D97035200CFF5C0 /* SplashScreenView.swift */; };
+		52CC69E22D97035200CFF5C0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69C52D97035200CFF5C0 /* ProfileView.swift */; };
+		52CC69E32D97035200CFF5C0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69C72D97035200CFF5C0 /* SettingsView.swift */; };
+		52CC69E42D97035200CFF5C0 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69C82D97035200CFF5C0 /* SettingsViewModel.swift */; };
+		52CC69E52D97035200CFF5C0 /* CollabCallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69CE2D97035200CFF5C0 /* CollabCallApp.swift */; };
+		52CC69E82D97038D00CFF5C0 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69E72D97038D00CFF5C0 /* Color+Extensions.swift */; };
+		52CC69EA2D9704A200CFF5C0 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC69E92D9704A200CFF5C0 /* UIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52022EA82D91C29900C4975F /* CollabCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollabCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CC69AB2D97035200CFF5C0 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		52CC69AD2D97035200CFF5C0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		52CC69B02D97035200CFF5C0 /* AuthDataResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataResultModel.swift; sourceTree = "<group>"; };
+		52CC69B22D97035200CFF5C0 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		52CC69B42D97035200CFF5C0 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		52CC69B62D97035200CFF5C0 /* SignInEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailViewModel.swift; sourceTree = "<group>"; };
+		52CC69BA2D97035200CFF5C0 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		52CC69BD2D97035200CFF5C0 /* ConnectionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionsListView.swift; sourceTree = "<group>"; };
+		52CC69BF2D97035200CFF5C0 /* AnimatedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTextView.swift; sourceTree = "<group>"; };
+		52CC69C02D97035200CFF5C0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		52CC69C22D97035200CFF5C0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		52CC69C32D97035200CFF5C0 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		52CC69C52D97035200CFF5C0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		52CC69C72D97035200CFF5C0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		52CC69C82D97035200CFF5C0 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		52CC69CB2D97035200CFF5C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52CC69CD2D97035200CFF5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52CC69CE2D97035200CFF5C0 /* CollabCallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabCallApp.swift; sourceTree = "<group>"; };
+		52CC69CF2D97035200CFF5C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52CC69D02D97035200CFF5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CC69E72D97038D00CFF5C0 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		52CC69E92D9704A200CFF5C0 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		529C01452D927C0900466357 /* Exceptions for "CollabCall" folder in "CollabCall" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 52022EA72D91C29900C4975F /* CollabCall */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		52022EAA2D91C29900C4975F /* CollabCall */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				529C01452D927C0900466357 /* Exceptions for "CollabCall" folder in "CollabCall" target */,
-			);
-			path = CollabCall;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		52022EA52D91C29900C4975F /* Frameworks */ = {
@@ -58,7 +80,7 @@
 		52022E9F2D91C29900C4975F = {
 			isa = PBXGroup;
 			children = (
-				52022EAA2D91C29900C4975F /* CollabCall */,
+				52CC69D12D97035200CFF5C0 /* CollabCall */,
 				529C011C2D91CA0F00466357 /* Frameworks */,
 				52022EA92D91C29900C4975F /* Products */,
 			);
@@ -79,6 +101,195 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		52CC69AC2D97035200CFF5C0 /* AuthenticationUtils */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69AB2D97035200CFF5C0 /* AuthenticationManager.swift */,
+			);
+			path = AuthenticationUtils;
+			sourceTree = "<group>";
+		};
+		52CC69AE2D97035200CFF5C0 /* FirestoreUtils */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69AD2D97035200CFF5C0 /* UserManager.swift */,
+			);
+			path = FirestoreUtils;
+			sourceTree = "<group>";
+		};
+		52CC69AF2D97035200CFF5C0 /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69AC2D97035200CFF5C0 /* AuthenticationUtils */,
+				52CC69AE2D97035200CFF5C0 /* FirestoreUtils */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		52CC69B12D97035200CFF5C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B02D97035200CFF5C0 /* AuthDataResultModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52CC69B32D97035200CFF5C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B22D97035200CFF5C0 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52CC69B52D97035200CFF5C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B42D97035200CFF5C0 /* SignInEmailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52CC69B72D97035200CFF5C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B62D97035200CFF5C0 /* SignInEmailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52CC69B82D97035200CFF5C0 /* EmailSignInView */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B52D97035200CFF5C0 /* View */,
+				52CC69B72D97035200CFF5C0 /* ViewModel */,
+			);
+			path = EmailSignInView;
+			sourceTree = "<group>";
+		};
+		52CC69B92D97035200CFF5C0 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B82D97035200CFF5C0 /* EmailSignInView */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		52CC69BB2D97035200CFF5C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B92D97035200CFF5C0 /* SubViews */,
+				52CC69BA2D97035200CFF5C0 /* AuthenticationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52CC69BC2D97035200CFF5C0 /* AuthenticationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69B12D97035200CFF5C0 /* Models */,
+				52CC69B32D97035200CFF5C0 /* ViewModel */,
+				52CC69BB2D97035200CFF5C0 /* Views */,
+			);
+			path = AuthenticationScreen;
+			sourceTree = "<group>";
+		};
+		52CC69BE2D97035200CFF5C0 /* ConnectionsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69BD2D97035200CFF5C0 /* ConnectionsListView.swift */,
+			);
+			path = ConnectionsScreen;
+			sourceTree = "<group>";
+		};
+		52CC69C12D97035200CFF5C0 /* LandingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69BF2D97035200CFF5C0 /* AnimatedTextView.swift */,
+				52CC69C02D97035200CFF5C0 /* HomeScreen.swift */,
+			);
+			path = LandingScreen;
+			sourceTree = "<group>";
+		};
+		52CC69C42D97035200CFF5C0 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69C22D97035200CFF5C0 /* Launch Screen.storyboard */,
+				52CC69C32D97035200CFF5C0 /* SplashScreenView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		52CC69C62D97035200CFF5C0 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69C52D97035200CFF5C0 /* ProfileView.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		52CC69C92D97035200CFF5C0 /* SettingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69C72D97035200CFF5C0 /* SettingsView.swift */,
+				52CC69C82D97035200CFF5C0 /* SettingsViewModel.swift */,
+			);
+			path = SettingScreen;
+			sourceTree = "<group>";
+		};
+		52CC69CA2D97035200CFF5C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69BC2D97035200CFF5C0 /* AuthenticationScreen */,
+				52CC69BE2D97035200CFF5C0 /* ConnectionsScreen */,
+				52CC69C12D97035200CFF5C0 /* LandingScreen */,
+				52CC69C42D97035200CFF5C0 /* LaunchScreen */,
+				52CC69C62D97035200CFF5C0 /* ProfileScreen */,
+				52CC69C92D97035200CFF5C0 /* SettingScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		52CC69CC2D97035200CFF5C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69CB2D97035200CFF5C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52CC69D12D97035200CFF5C0 /* CollabCall */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69EB2D9704A600CFF5C0 /* Constants */,
+				52CC69E62D97036800CFF5C0 /* Extensions */,
+				52CC69AF2D97035200CFF5C0 /* FirebaseManager */,
+				52CC69CA2D97035200CFF5C0 /* Modules */,
+				52CC69CC2D97035200CFF5C0 /* Preview Content */,
+				52CC69CD2D97035200CFF5C0 /* Assets.xcassets */,
+				52CC69CE2D97035200CFF5C0 /* CollabCallApp.swift */,
+				52CC69CF2D97035200CFF5C0 /* GoogleService-Info.plist */,
+				52CC69D02D97035200CFF5C0 /* Info.plist */,
+			);
+			path = CollabCall;
+			sourceTree = "<group>";
+		};
+		52CC69E62D97036800CFF5C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69E72D97038D00CFF5C0 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52CC69EB2D9704A600CFF5C0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				52CC69E92D9704A200CFF5C0 /* UIConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,9 +304,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				52022EAA2D91C29900C4975F /* CollabCall */,
 			);
 			name = CollabCall;
 			packageProductDependencies = (
@@ -152,6 +360,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CC69D22D97035200CFF5C0 /* Launch Screen.storyboard in Resources */,
+				52CC69D32D97035200CFF5C0 /* Preview Assets.xcassets in Resources */,
+				52CC69D42D97035200CFF5C0 /* Assets.xcassets in Resources */,
+				52CC69D52D97035200CFF5C0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +374,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CC69D72D97035200CFF5C0 /* AuthenticationManager.swift in Sources */,
+				52CC69D82D97035200CFF5C0 /* UserManager.swift in Sources */,
+				52CC69D92D97035200CFF5C0 /* AuthDataResultModel.swift in Sources */,
+				52CC69DA2D97035200CFF5C0 /* AuthenticationViewModel.swift in Sources */,
+				52CC69DB2D97035200CFF5C0 /* SignInEmailView.swift in Sources */,
+				52CC69DC2D97035200CFF5C0 /* SignInEmailViewModel.swift in Sources */,
+				52CC69DD2D97035200CFF5C0 /* AuthenticationView.swift in Sources */,
+				52CC69DE2D97035200CFF5C0 /* ConnectionsListView.swift in Sources */,
+				52CC69EA2D9704A200CFF5C0 /* UIConstants.swift in Sources */,
+				52CC69DF2D97035200CFF5C0 /* AnimatedTextView.swift in Sources */,
+				52CC69E02D97035200CFF5C0 /* HomeScreen.swift in Sources */,
+				52CC69E12D97035200CFF5C0 /* SplashScreenView.swift in Sources */,
+				52CC69E82D97038D00CFF5C0 /* Color+Extensions.swift in Sources */,
+				52CC69E22D97035200CFF5C0 /* ProfileView.swift in Sources */,
+				52CC69E32D97035200CFF5C0 /* SettingsView.swift in Sources */,
+				52CC69E42D97035200CFF5C0 /* SettingsViewModel.swift in Sources */,
+				52CC69E52D97035200CFF5C0 /* CollabCallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CollabCall/Preview Content\"";
@@ -301,7 +531,7 @@
 				INFOPLIST_FILE = CollabCall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CollabCall/Preview Content\"";
@@ -331,7 +562,7 @@
 				INFOPLIST_FILE = CollabCall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

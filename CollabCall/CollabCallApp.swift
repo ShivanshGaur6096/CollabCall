@@ -16,7 +16,7 @@ struct CollabCallApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                AuthenticationView()
+                LoginScreen()
             }
         }
     }
